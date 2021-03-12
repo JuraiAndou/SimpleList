@@ -5,13 +5,13 @@
 # Compiler settings - Can be customized.
 CC = g++
 CXXFLAGS = -std=c++11 -Wall
-LDFLAGS = 
+LDFLAGS =
 
 # Makefile settings - Can be customized.
 APPNAME = simpleList
 EXT = .cpp
-SRCDIR = /home/samucca/Dev/helloworld/src
-OBJDIR = /home/samucca/Dev/helloworld/obj
+SRCDIR = src
+OBJDIR = obj
 
 ############## Do not change anything from here downwards! #############
 SRC = $(wildcard $(SRCDIR)/*$(EXT))

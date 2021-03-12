@@ -26,7 +26,7 @@ void print_menu(string name){
 
 	cin >> choice;
 
-	if(choice = 4){
+	if(choice == 4){
 		exit(0);
 	}
 }
