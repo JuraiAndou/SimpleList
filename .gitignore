@@ -1,0 +1,4 @@
+simpleList
+.vscode/
+*.d
+*.o
